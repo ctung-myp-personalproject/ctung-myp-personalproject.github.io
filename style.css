@@ -96,6 +96,7 @@ nav ul li a:hover{
   margin-left:2.5vw;
   font-size:4vw; 
 }
+
 .row {
   display: flex;
   justify-content:center;
@@ -107,6 +108,7 @@ nav ul li a:hover{
 .column {
   flex: 33.33%;
   padding: 5px;
+  height:auto;
 }
 
 .sep{
@@ -173,4 +175,29 @@ blockquote{
 .wfooter{
   height:25%;
   padding:5%;
+}
+.buttons{
+  margin:20px;
+}
+.btn1{
+  background-color:#FFD0E8;
+  border-radius:10px;
+  border-style:none;
+  padding:20px 50px;
+  font-family:roboto;
+  font-size:2rem;
+  color:white;
+  text-transform:uppercase;
+  font-weight:bold;
+  cursor:pointer;
+  transition-duration:0.3s;
+  transition-property: transform, border-color,background-color,border-style, color;
+}
+.btn1:hover, .btn1:active{
+  transform:scale(1.05);
+  background-color:white;
+  border-color:#FFD0E8;
+  border-style:solid;
+  border-width:5px;
+  color:#FFD0E8;
 }
