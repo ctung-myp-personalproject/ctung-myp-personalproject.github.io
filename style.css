@@ -201,3 +201,61 @@ blockquote{
   border-width:5px;
   color:#FFD0E8;
 }
+.isb{
+  
+  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(oregon.jpeg);
+  height:100vh;
+  font-family:roboto;
+  line-height:150%
+}
+.isb h1{
+  font-family:GRR;
+  padding-top:170px;
+  margin:20px;
+  color:white;
+  padding-bottom:5vh;
+}
+.isb p{
+  margin:20px;
+  color:white;
+}
+.sports{
+  height:90%;
+}
+.sports h2{
+  font-family:GRR;
+  padding-top:70px;
+  margin:20px;
+  color:black;
+  padding-bottom:3vh;
+}
+.sports h3{
+  font-family:GRR;
+  padding-top:70px;
+  font-size:1.5rem;
+  margin:20px;
+  color:black;
+  padding-bottom:3vh;
+}
+.sports p{
+  font-family:roboto;
+  margin:20px;
+}
+.sports img{
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  height:50vh;
+  margin-top:20px;
+  margin-bottom:20px
+  border-radius:10px;
+  transition-duration:0.3s;
+  transition-property: transform, border-color,background-color,border-style, color;
+}
+.sports img:hover{
+  transform:scale(1.05);
+  background-color:white;
+  border-color:#FFD0E8;
+  border-style:solid;
+  border-width:5px;
+}
